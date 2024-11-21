@@ -2,10 +2,10 @@ package com.example.kotlinbasics
 
 fun main() {
     println("Enter first number:")
-    var num1 = readln().toInt()
+    val num1 = readln().toInt()
 
     println("Enter second number:")
-    var num2 = readln().toInt()
+    val num2 = readln().toInt()
 
     val myResults = add(num1, num2)
     println("The result for adding the numbers together is: $myResults")
