@@ -1,12 +1,12 @@
 package com.example.kotlinbasics
-
-//data class CoffeeDetails(
-//    val buyersName :String,
-//    val roast :String,
-//    val sugarPacketCount : Int
-//    val creamAmount :Int
-//)
-
+/* Multi line comment starts with /*    ends with */
+data class CoffeeDetails(
+    val buyersName :String,
+    val roast :String,
+    val sugarPacketCount : Int
+    val creamAmount :Int
+)
+*/
 
 fun main(){
     //User system where users add the values
